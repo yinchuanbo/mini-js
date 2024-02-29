@@ -4,13 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anta&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="container">
-      <textarea name="" id="input"></textarea>
-      <button type="button" id="handle">混淆编译</button>
-      <textarea name="" id="output"></textarea>
+    <div class="wrapper">
+      <div class="js-box">
+        <div class="title">JavaScript</div>
+        <textarea id="js-input"></textarea>
+        <button type="button" id="js-button">JS压缩编译</button>
+        <textarea id="js-output"></textarea>
+      </div>
+      <div class="css-box">
+        <div class="title">Css</div>
+        <textarea id="css-input"></textarea>
+        <button type="button" id="css-button">CSS压缩编译</button>
+        <textarea id="css-output"></textarea>
+      </div>
+      <div class="html-box">
+        <div class="title">Html</div>
+        <textarea id="html-input"></textarea>
+        <button type="button" id="html-button">HTML压缩编译</button>
+        <textarea id="html-output"></textarea>
+      </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/terser/dist/bundle.min.js"></script>
     <script src="./script.js"></script>
