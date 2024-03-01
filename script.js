@@ -10,7 +10,7 @@ jsButton.onclick = async function () {
   const options = {
     compress: {
       dead_code: true,
-      drop_console: true,
+      // drop_console: true,
     },
     mangle: true,
     output: {
