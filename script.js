@@ -9,7 +9,7 @@ jsButton.onclick = async function () {
   if (!inputVal) return;
   const options = {
     compress: {
-      dead_code: true,
+      // dead_code: true,
       // drop_console: true,
     },
     mangle: true,
